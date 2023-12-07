@@ -32,9 +32,6 @@ resource "aws_instance" "u21" {
 
 
 }
-output "c8" {
-  value = aws_instance.c8.public_dns
-}
 
 
 resource "local_file" "file_01" {
